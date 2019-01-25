@@ -1,10 +1,10 @@
 ﻿<Properties StartupConfiguration="{75429E51-D364-B0B9-0AE1-94A2F78A0B21}|">
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/RegularTest.cs">
     <Files>
-      <File FileName="Assets/ThreadedLODS.cs" Line="35" Column="9" />
+      <File FileName="Assets/ThreadedLODS.cs" Line="389" Column="20" />
       <File FileName="Assets/ThreadedObjectInfo.cs" Line="6" Column="1" />
       <File FileName="Assets/ThreadedObstacle.cs" Line="12" Column="42" />
-      <File FileName="Assets/RegularTest.cs" Line="9" Column="3" />
+      <File FileName="Assets/RegularTest.cs" Line="17" Column="47" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
