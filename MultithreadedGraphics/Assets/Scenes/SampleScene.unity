@@ -247,7 +247,7 @@ GameObject:
   - component: {fileID: 290260430}
   - component: {fileID: 290260429}
   m_Layer: 0
-  m_Name: Sphere
+  m_Name: Remover
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -280,7 +280,7 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 2100000, guid: 6adcf9105c25d474a834b51179bd1648, type: 2}
+  - {fileID: 2100000, guid: 83ee28b3a6ba44b9ebea824b7de27081, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -315,10 +315,10 @@ Transform:
   m_GameObject: {fileID: 290260428}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -18.56, y: -2.1259918, z: 2.6261897}
-  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_LocalScale: {x: 4, y: 4, z: 4}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &534669902
 GameObject:
@@ -392,11 +392,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 534669902}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: -35.04}
+  m_LocalPosition: {x: 0, y: 1, z: -23.2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &534669906
 MonoBehaviour:
@@ -423,8 +423,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1616504246}
   - component: {fileID: 1616504245}
+  - component: {fileID: 1616504247}
   m_Layer: 0
-  m_Name: Templates
+  m_Name: _Templates
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -447,8 +448,7 @@ MonoBehaviour:
   threadedObstacles: []
   camT: {fileID: 534669905}
   remover: {fileID: 290260432}
-  removerRadius: 1
-  testObstacle: {fileID: 2061247751}
+  removerRadius: 4
 --- !u!4 &1616504246
 Transform:
   m_ObjectHideFlags: 0
@@ -464,6 +464,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1616504247
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1616504244}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41da6b42cee56448cb23225729a7c71c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 1007829746593146, guid: 24b8c4aa504d54ed69272af8e2b7671b, type: 2}
 --- !u!1 &1947445957
 GameObject:
   m_ObjectHideFlags: 0
@@ -579,7 +591,7 @@ GameObject:
   - component: {fileID: 2006644206}
   - component: {fileID: 2006644207}
   m_Layer: 0
-  m_Name: Grass
+  m_Name: Capsule
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -610,11 +622,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   meshes:
-  - {fileID: 4300000, guid: 7bb776f786a0f4f8bae36c9ebe48dc62, type: 3}
-  - {fileID: 4300000, guid: 7bb776f786a0f4f8bae36c9ebe48dc62, type: 3}
+  - {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+  - {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
   materials:
-  - {fileID: 2100000, guid: 6d555f0ce48e84d0f8c2c8dec3f0fce9, type: 2}
-  - {fileID: 2100000, guid: 6adcf9105c25d474a834b51179bd1648, type: 2}
+  - {fileID: 2100000, guid: 6ae648bc516634ad8881a5d20f8939d0, type: 2}
+  - {fileID: 2100000, guid: 1282b2d6e5f274feda68e2c15c5b03e4, type: 2}
   renderDistances:
   - 20
   - 40
@@ -655,7 +667,7 @@ Transform:
   m_LocalScale: {x: 3, y: 3, z: 3}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2061247752
 MonoBehaviour:

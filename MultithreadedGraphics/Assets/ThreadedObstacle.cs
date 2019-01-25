@@ -9,14 +9,14 @@ public class ThreadedObstacle : MonoBehaviour {
     /// </summary>
     [Range(0,3)]
     public float offset = .6f;
-    public Vector3 pos;
+    [HideInInspector] public Vector3 pos;
     Transform trans;
     int index = -1;
-    public Vector3 dir;
-    public Vector3 dirNorm;
-    public float sumRad;
-    public float dist;
-    public float cosAngle;
+    [HideInInspector] public Vector3 dir;
+    [HideInInspector] public Vector3 dirNorm;
+    [HideInInspector] public float sumRad;
+    [HideInInspector] public float dist;
+    [HideInInspector] public float cosAngle;
 
 	private void updatePosition()
 	{
