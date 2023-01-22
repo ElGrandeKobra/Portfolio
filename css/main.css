@@ -1254,14 +1254,14 @@
     top: 1px; }
 
 .btn-primary {
-  background-color: #378C3F;
-  color: #FFFFFF; }
+  background-color: #e0c7dcb0;
+  color: #111113b2; }
   .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .btn-primary:active:focus, .btn-primary:active:hover, .btn-primary.active:focus, .btn-primary.active:hover,
   .show > .btn-primary.dropdown-toggle,
   .show > .btn-primary.dropdown-toggle:focus,
   .show > .btn-primary.dropdown-toggle:hover {
-    background-color: #40a249;
-    color: #FFFFFF;
+    background-color: #111113b2;
+    color: #e0c7dcb0;
     box-shadow: none; }
   .btn-primary:hover {
     box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.17); }
@@ -2040,10 +2040,10 @@ textarea.form-control {
   .progress-container.progress-primary .progress {
     background: rgba(55, 140, 63, 0.4); }
   .progress-container.progress-primary .progress-bar {
-    background: #378C3F; }
+    background: #111113b2; }
   .progress-container.progress-primary .progress-value,
   .progress-container.progress-primary .progress-badge {
-    color: #378C3F; }
+    color: #35303d; }
   .progress-container.progress-info .progress {
     background: rgba(44, 168, 255, 0.3); }
   .progress-container.progress-info .progress-bar {
@@ -2402,7 +2402,7 @@ body {
     color: #378C3F; }
 
 .nav-pills.nav-pills-primary .nav-item .nav-link.active, .nav-pills.nav-pills-primary .nav-item .nav-link.active:focus, .nav-pills.nav-pills-primary .nav-item .nav-link.active:hover {
-  background-color: #378C3F; }
+  background-color: #111113b2; }
 
 .nav-pills.nav-pills-info .nav-item .nav-link.active, .nav-pills.nav-pills-info .nav-item .nav-link.active:focus, .nav-pills.nav-pills-info .nav-item .nav-link.active:hover {
   background-color: #2CA8FF; }
@@ -2598,7 +2598,7 @@ body {
   background-color: #888 !important; }
 
 .bg-primary {
-  background-color: #378C3F !important; }
+  background-color: #111113b2 !important; }
 
 .bg-info {
   background-color: #2CA8FF !important; }
