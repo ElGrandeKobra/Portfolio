@@ -1,1 +1,0 @@
-This scene is meant to demonstrate how scriptable object assets can be used by other scripts
