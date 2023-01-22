@@ -1,77 +1,136 @@
 <!DOCTYPE html>
 <html lang="en">
-    <style>
-        body {
-            background-color: blanchedalmond;
-        }
-        table, td, th {
-            border: 2px solid black;
-            border-radius: 5%;
-            width: 50%;
-        }
-        .city {
-            background-color: tomato;
-            color:white;
-            border: 2px solid black;
-            margin: 20px;
-            padding: 20px;
-        }
-    </style>
+<style>
+    body {
+        background-color: blanchedalmond;
+    }
+    table, td, th {
+        border: 2px solid black;
+        border-radius: 5%;
+        width: 50%;
+    }
+    .city {
+        background-color: tomato;
+        color:white;
+        border: 2px solid black;
+        margin: 20px;
+        padding: 20px;
+    }
+</style>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="Understanding HTML">
-    <title>Test</title>
+    <title>Portofolio</title>
+
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+    <link href="styles.css" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
 </head>
+
+
 <body>
-    <h2>CCS Layout Flexbox</h2>
-    <p>In this example, we have reated a header, two columns/boxes</p>
-    <p><strong>Note:</strong> Flexbox is not suppprted in Internet Exploerer 10 or earlier.</p>
-
-    <header>
-        <h2>Cities.</h2>
-    </header>
-
-    <section>
-        <nav>
-            <table>
-                <tr>
-                    <th>City</th>
-                    <th>Info</th>
-                </tr>
-                <tr>
-                    <td>London</td>
-                    <td><a href="london.html">Read</a></td>
-                </tr>
-                <tr>
-                    <td>Paris</td>
-                    <td><a href="paris.html">Read</a></td>
-                </tr>
-                <tr>
-                    <td>Tokyo</td>
-                    <td><a href="tokyo.html">Read</a></td>
-                </tr>
-            </table>
-        </nav>
-
-    <div class="city">
-        <h1>London</h1>
-        <p>London is the capital of England.</p>
+    <div class="cv-container">
+        <div class="left-column">
+            <img class="portait" height="256" width="256" src="Blank-Silhouette.jpg" />
+            <div class="section">
+                <p>
+                    <i class="icon fab fa-linkedin text-darkblue"></i> Ismail Illa
+                </p>
+            </div>
+            <div class="section">
+                <h2>About</h2>
+                <p>
+                    <strong>Front-end</strong> is one of my passions : I love integrating or imagining modern interfaces, making them responsive and dynamic with smooth and sleek animations. The two technos I use are <strong>Angular</strong> and <strong>Bootstrap</strong>, which I've been using for +6 years. I am also a Full-stack : PHP, MySQL, Doctrine… 
+                 </p>
+            </div>
+            <div class="section">
+                <h2>Skills</h2>
+                <ul class="skills">
+                    <li><i class="icon fas fa-check-circle text-darkblue"></i> <strong>HTML5 &#124; CSS3
+                            &#124; SASS</strong></li>
+                    <li><i class="icon fas fa-check-circle text-darkblue"></i> <strong>JavaScript</strong>
+                    </li>
+                    <li><i class="icon fas fa-check-circle text-darkblue"></i> <strong>C#</strong>
+                    </li>
+                    <li><i class="icon fas fa-check-circle text-darkblue"></i> <strong>npm</strong></li>
+                    <li><i class="icon fas fa-check-circle text-darkblue"></i> Git &#124; Github</li>
+                </ul>
+            </div>
+            <div class="section">
+                <h2>Languages</h2>
+                <p>
+                    Arabic, mother language
+                    <br>
+                    French, intermediate
+                    <br>
+                    English, advanced and fluent
+                </p>
+            </div>
+            <div class="section">
+                <h2>Interests</h2>
+                <p>
+                    Playing and developing video games.
+                    <br>
+                    Music
+                    <br>
+                    Sport, weight lifting and swimming
+                    <br>
+                    Computers, their function and technologies
+                </p>
+            </div>
+        </div>
+        <div class="right-column">
+            <div class="header">
+                <h1>Ismail <span class="text-blue text-uppercase">Illa</span></h1>
+                <p>Freelance Front-end Developer</p>
+                <ul class="infos">
+                    <li><i class="icon fas fa-at text-blue"></i> <a
+                            href="mailto:contact@ilismail.com">contact@ilismail.com</a></li>
+                    <li><i class="icon fas fa-phone text-blue"></i> 06 28 53 19 45 </li>
+                    <li><i class="icon fas fa-map-marker-alt text-blue"></i> LOT 74 CORSICA, Kenitra, Morocco</li>
+                </ul>
+            </div>
+            <div class="content">
+                <div class="section">
+                    <h2><br><span class="text-blue">Professional</span> experience</h2>
+                </div>
+                <div class="section">
+                    <p>
+                        <strong>2021 <i class="fas fa-long-arrow-alt-right"></i> 2023</strong>
+                        <br>
+                        Freelance
+                    </p>
+                    <ul class="experience-list">
+                        <li>Freelance Front-end Developer</li>
+                        <li>Unity Game Programmer</li>
+                    </ul>
+                </div>
+                <div class="section">
+                    <h2>Training <br><span class="text-blue">& Education</span></h2>
+                    <p>
+                        <strong>2021 <i class="fas fa-long-arrow-alt-right"></i> 2022</strong>
+                        <br>
+                        <em>Baccalaureat in Math Science</em>, Youssef Ibn Tachefine
+                    </p>
+                    </p>
+                </div>
+                <div class="section">
+                    <h2>Other <br><span class="text-blue">experiences</span></h2>
+                    <p>
+                        Unity game developer for +5 years.
+                    </p>
+                </div>
+            </div>
+        </div>
     </div>
-    
-    <div class="city">
-        <h1>Paris</h1>
-        <p>Paris is the capital of France.</p>
-    </div>
-    
-    <div class="city">
-        <h1>Tokyo</h1>
-        <p>Tokyo is the capital of Japan.</p>
-    </div>
-</section>
-
-    <footer>
-        <p>Footer</p>
-    </footer>
 </body>
 </html>
